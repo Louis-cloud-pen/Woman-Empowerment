@@ -29,25 +29,20 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/pic.png'}
+        image={'/pic1.jpeg'}
         title={'Women Empowerment'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
+        subtitle={'Fostering Strength, Igniting Change, Empowering Every Woman.'}
+        ctaText={'Meaning, Quotes & How to Empower Women'}
       />
 
+
       {/* Message Container */}
-      <div className={styles.messageContainer}>
         <p>
-          that 
-          is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
-        </p>
-      </div>
+        Women’s empowerment can be defined to promoting women’s sense of self-worth, their ability to determine their own choices, and their right to influence social change for themselves and others
+It is closely aligned with female empowerment – a fundamental human right that’s also key to achieving a more peaceful, prosperous world.
+In Western countries, female empowerment is often associated with specific phases of the women’s rights movement in history. This movement tends to be split into three waves, the first beginning in the 19th and early 20th century where suffrage was a key feature. The second wave of the 1960s included the sexual revolution and the role of women in society. Third wave feminism is often seen as beginning in the 1990s.
+Women’s empowerment and promoting women’s rights have emerged as a part of a major global movement and is continuing to break new ground in recent years. Days like International Women’s Empowerment Day are also gaining momentum.
+</p>
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
